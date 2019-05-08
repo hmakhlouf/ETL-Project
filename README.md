@@ -1,10 +1,11 @@
 # ETL-Project
 
 1. Names:
-Omar Aziz
-Wilton Kwong
-Ayobami Folaranmi
-Hocine Makhlouf
+
+Omar Aziz/
+Wilton Kwong/
+Ayobami Folaranmi/
+Hocine Makhlouf/
 
 2. The sources of data that you will extract from:
 Jodidata.org - csv file containing monthly oil production by country over the last 5 years, between 02/2014 to 02/2019.
