@@ -1,37 +1,39 @@
-![etl.png](etl.PNG)
+![etl.png](https://financeandmarkets.com/wp-content/uploads/2017/09/oil-and-gas-production.jpg)
 
 
 
 # ETL-Project
 
-1. Names:
+# Extract, Transform and Load Group Project
 
-Omar Aziz/
-Wilton Kwong/
-Ayobami Folaranmi/
-Hocine Makhlouf/
+# 1. Names:
 
-2. The sources of data that you will extract from:
-Jodidata.org - csv file containing monthly oil production by country over the last 5 years, between 02/2014 to 02/2019.
-http://www.jodidb.org/TableViewer/tableView.aspx?ReportId=9390
-
- Bloomberg - will be using the bloomberg api to retrieve oil benchmark prices data over the last 5 years (02/2014 to 02/2019).
-https://www.bloomberg.com/professional/support/api-library/
+Group Members: Omar Aziz, Wilton Kwong, Ayobami Folaranmi, and Hocine Makhlouf 
 
 
-3. What useful investigation could be done with the final database: 
-Users can create insights on how the oil price volatility impacts production.
-Users can also see patterns or trends in oil supply  and  demand. 
 
 
-4. The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc):
-Joining.
-Use the pandas library in Python to clean, join/merge, and structure data for easy accessibility and user consumption.
+# What we did?
 
- 5. The type of final production database to load the data into (relational or non-relational):  
-Relational Database. The two data sources are homogeneous
- So we can match the price data from the Bloomberg API with each month of oil production from the Jodi csv dataset.
+# 1. Sources of data that was extracted:
 
-6. The final tables or collections that will be used in the production database:
-Oil production by country 
-Oil prices by benchmark i.e Brent and WTI
+* A. Jodidata.org - Downloaded a csv file containing monthly oil production by country over the last 5 years, between 02/2014 to 02/2019. http://www.jodidb.org/TableViewer/tableView.aspx?ReportId=9390
+
+* B. Alpha Vantage - A website that provides free APIs for realtime and historical data on stocks, commodity prices, forex, and currencies (02/2014 to 02/2019).
+https://www.alphavantage.co/documentation/#
+
+Jodiddata.org provided monthly oil production, while Alpha vantage provided historical brent crude oil prices, which is the most popular benchmark used for marketing and selling crude oil around the world.
+
+# 2. Transformation steps/methodology:
+
+* The extracted data (oil production and brent crude oil prices) was brought into the pandas library in Python to eliminate redundant or null values and then displayed in a data frame for easier data manipulation and analysis. Data was then merged together for easy curation and more robust analysis.
+
+# 3. Loading the data (relational or non-relational):  
+
+* Finally, data was stored in a mySQL database; a relational database which will be made available for public access and future use. The table in the database will have columns showing and rows showing countries, crude oil prices, crude oil production and monthly dates.  
+
+# Why we did it?
+
+* Users will be able to create insights on how oil price volatility impacts production and revenue by country.
+Users can also see patterns or trends in oil supply and demand on a global scale. 
+
