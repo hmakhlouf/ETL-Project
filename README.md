@@ -1,4 +1,4 @@
-![etl.png](etl.PNG)
+![etl.png](etl.png)
 
 
 
@@ -6,7 +6,7 @@
 
 # Extract, Transform and Load Group Project
 
-# 1. Names:
+# Names:
 
 Group Members: Omar Aziz, Wilton Kwong, Ayobami Folaranmi, and Hocine Makhlouf 
 
