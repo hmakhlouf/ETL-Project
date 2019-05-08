@@ -1,4 +1,4 @@
-![etl.png](https://financeandmarkets.com/wp-content/uploads/2017/09/oil-and-gas-production.jpg)
+![etl.png](etl.PNG)
 
 
 
